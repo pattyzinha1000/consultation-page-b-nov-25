@@ -278,7 +278,7 @@ const Index = () => {
               </div>
               
               {/* Calendly inline widget */}
-              <div className="mt-4">
+              <div>
                 <div 
                   className="calendly-inline-widget" 
                   data-url="https://calendly.com/d/cmdh-g6z-fxh/your-private-consultation?hide_gdpr_banner=1&utm_source=consult-page-jon-version" 
