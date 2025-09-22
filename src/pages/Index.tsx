@@ -2,6 +2,7 @@ import { WarningBox } from "@/components/WarningBox";
 import { VideoEmbed } from "@/components/VideoEmbed";
 import { CalendlyEmbed } from "@/components/CalendlyEmbed";
 import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
 
 const Index = () => {
   const videoEmbedCode = `
@@ -18,21 +19,20 @@ const Index = () => {
   `;
 
   return (
-    <div className="min-h-screen bg-background">
-      <div className="container mx-auto px-6 py-8 max-w-4xl">
+    <div className="min-h-screen bg-background font-sans">
+      <div className="container mx-auto px-6 py-12 max-w-5xl">
         
-        {/* Header */}
-        <div className="text-center mb-8">
-          <h1 className="text-2xl md:text-3xl font-bold mb-8 text-foreground">
+        {/* Hero Header */}
+        <div className="text-center mb-12">
+          <h1 className="text-4xl md:text-6xl font-bold mb-8 text-foreground leading-tight">
             You Did Something Brave Today. Most People Stay Stuck. You Chose to Move Forward.
           </h1>
-        </div>
-
-        {/* Registration Message */}
-        <div className="text-center mb-6">
-          <p className="text-lg text-foreground">
-            You're officially registered for the <strong>5-Day Full Body Fix</strong> starting November 1st. You'll get all the details soon.
-          </p>
+          
+          <div className="bg-muted p-8 rounded-xl mb-8 max-w-4xl mx-auto">
+            <p className="text-2xl md:text-3xl text-foreground font-medium">
+              You're officially registered for the <strong className="text-primary">5-Day Full Body Fix</strong> starting November 1st. You'll get all the details soon.
+            </p>
+          </div>
         </div>
 
         {/* Warning Box */}
@@ -41,12 +41,12 @@ const Index = () => {
           subtitle="It's not available at any other time on any other page"
         />
 
-        {/* Optional message */}
-        <div className="text-center mb-8 max-w-3xl mx-auto">
-          <p className="text-base text-foreground">
+        {/* Pre-video message */}
+        <div className="text-center mb-8 max-w-4xl mx-auto">
+          <p className="text-xl md:text-2xl text-foreground mb-4">
             But right now, Robbie has a 3-minute message for you. He's about to explain something we discovered after analyzing over 1 million cases.
           </p>
-          <p className="text-base font-semibold mt-4 text-foreground">
+          <p className="text-xl md:text-2xl font-bold text-primary">
             Watch this now - you'll only see it once:
           </p>
         </div>
@@ -54,114 +54,178 @@ const Index = () => {
         {/* Video Section */}
         <VideoEmbed embedCode={videoEmbedCode} />
 
-        {/* Main Content */}
-        <div className="max-w-3xl mx-auto space-y-8 mb-12 text-center">
+        {/* CTA Button */}
+        <div className="text-center my-12">
+          <Button className="bg-primary hover:bg-primary/90 text-primary-foreground text-2xl font-bold py-6 px-12 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-200">
+            BOOK YOUR CONSULTATION NOW
+          </Button>
+          <p className="text-xl font-semibold mt-4 text-foreground">Limited Staff and Dates Available</p>
+          <p className="text-lg text-primary font-bold mt-2">Hurry! Only 13 Slots Left</p>
+        </div>
+
+        {/* Main Content Sections */}
+        <div className="max-w-4xl mx-auto space-y-12 mb-16">
           
-          <h2 className="text-2xl font-bold mb-6 text-foreground">
-            What Separates Those Who Thrive From Those Who Just Survive
-          </h2>
-          
-          <div className="space-y-4 text-left">
-            <p className="text-base">After analyzing over a million people over 50…</p>
-            <p className="text-base">Running a 5-year research study...</p>
-            <p className="text-base">Building the world's largest database on fitness functionality after 50...</p>
-            <p className="text-base font-semibold">We discovered something your doctor doesn't know.</p>
-            <p className="text-base font-semibold">Your decline isn't just physical. It started in your mind.</p>
-          </div>
+          {/* Section 1 - Discovery */}
+          <Card className="p-8 bg-info-bg border-l-8 border-info-border shadow-lg">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 text-info-text">
+              What Separates Those Who Thrive From Those Who Just Survive
+            </h2>
+            
+            <div className="space-y-6 text-left">
+              <p className="text-xl md:text-2xl">After analyzing over a million people over 50…</p>
+              <p className="text-xl md:text-2xl">Running a 5-year research study...</p>
+              <p className="text-xl md:text-2xl">Building the world's largest database on fitness functionality after 50...</p>
+              <p className="text-xl md:text-2xl font-bold text-primary">We discovered something your doctor doesn't know.</p>
+              <p className="text-xl md:text-2xl font-bold text-primary">Your decline isn't just physical. It started in your mind.</p>
+            </div>
 
-          <div className="space-y-4 text-left">
-            <p className="text-base">
-              That morning when you first hesitated at the stairs? Your brain had already begun disconnecting from your body. 
-              The mysterious pains? Your nervous system forgot how to coordinate properly.
-            </p>
-            <p className="text-base font-semibold">Everything happens twice: First in your mind, then in your body.</p>
-            <p className="text-base">
-              That's why treating just the knee never works. Why perfect gym form doesn't fix the problem. 
-              Why you're doing "everything right" but getting worse.
-            </p>
-          </div>
+            <div className="space-y-6 text-left mt-8 bg-white p-6 rounded-lg">
+              <p className="text-xl md:text-2xl">
+                That morning when you first hesitated at the stairs? Your brain had already begun disconnecting from your body. 
+                The mysterious pains? Your nervous system forgot how to coordinate properly.
+              </p>
+              <p className="text-xl md:text-2xl font-bold text-primary">Everything happens twice: First in your mind, then in your body.</p>
+              <p className="text-xl md:text-2xl">
+                That's why treating just the knee never works. Why perfect gym form doesn't fix the problem. 
+                Why you're doing "everything right" but getting worse.
+              </p>
+            </div>
+          </Card>
 
-          <h2 className="text-2xl font-bold mb-6 mt-12 text-foreground">
-            A Private 90-Minute Consultation With Our Elite Team
-          </h2>
+          {/* Section 2 - Elite Team */}
+          <Card className="p-8 bg-success-bg border-l-8 border-success-border shadow-lg">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 text-success-text">
+              A Private 90-Minute Consultation With Our Elite Team
+            </h2>
 
-          <div className="space-y-4 text-left">
-            <p className="text-base">These aren't typical trainers or therapists limited by insurance rules.</p>
-            <p className="text-base">
-              These are doctorate-level experts who understand the complete mind-body connection. 
-              They've been trained in our proprietary system that treats your body as one integrated unit - not isolated parts.
-            </p>
-          </div>
+            <div className="space-y-6 text-left">
+              <p className="text-xl md:text-2xl">These aren't typical trainers or therapists limited by insurance rules.</p>
+              <p className="text-xl md:text-2xl">
+                These are <strong className="text-primary">doctorate-level experts</strong> who understand the complete mind-body connection. 
+                They've been trained in our proprietary system that treats your body as one integrated unit - not isolated parts.
+              </p>
+            </div>
 
-          <h3 className="text-xl font-bold mb-4 mt-8">What Makes This Different:</h3>
-          
-          <div className="space-y-4 text-left">
-            <p className="text-base">
-              Your therapist can only treat your knee (insurance rules). Your trainer only knows exercises (not dysfunction). 
-              Your doctor sees parts, not patterns.
-            </p>
-            <p className="text-base">
-              Our experts see the whole picture: how your brain talks to your pelvis, how your breathing affects your shoulders, 
-              why your foot position determines your back pain.
-            </p>
-          </div>
+            <div className="mt-8 bg-white p-6 rounded-lg">
+              <h3 className="text-2xl md:text-3xl font-bold text-center mb-6 text-primary">What Makes This Different:</h3>
+              
+              <div className="space-y-6 text-left">
+                <p className="text-xl md:text-2xl">
+                  Your therapist can only treat your knee (insurance rules). Your trainer only knows exercises (not dysfunction). 
+                  Your doctor sees parts, not patterns.
+                </p>
+                <p className="text-xl md:text-2xl font-semibold text-success-text">
+                  Our experts see the whole picture: how your brain talks to your pelvis, how your breathing affects your shoulders, 
+                  why your foot position determines your back pain.
+                </p>
+              </div>
+            </div>
+          </Card>
 
-          <h3 className="text-xl font-bold mb-4 mt-8">In Your Private Session:</h3>
-          
-          <p className="text-base font-semibold text-left mb-4">You'll discover:</p>
-          <ul className="space-y-2 text-left text-base ml-6">
-            <li>• Why your body stopped following the rules (it's not aging)</li>
-            <li>• Your specific compensation patterns hiding in plain sight</li>
-            <li>• The exact sequence your body needs to reconnect mind to movement</li>
-            <li>• Which movements heal YOUR structure vs harm it</li>
-          </ul>
+          {/* Section 3 - Session Details */}
+          <Card className="p-8 bg-warning-bg border-l-8 border-warning-border shadow-lg">
+            <h3 className="text-2xl md:text-3xl font-bold text-center mb-8 text-warning-text">In Your Private Session:</h3>
+            
+            <p className="text-xl md:text-2xl font-bold text-left mb-6 text-foreground">You'll discover:</p>
+            <ul className="space-y-4 text-left text-xl md:text-2xl ml-8">
+              <li className="flex items-start">
+                <span className="text-primary font-bold mr-2">•</span>
+                Why your body stopped following the rules (it's not aging)
+              </li>
+              <li className="flex items-start">
+                <span className="text-primary font-bold mr-2">•</span>
+                Your specific compensation patterns hiding in plain sight
+              </li>
+              <li className="flex items-start">
+                <span className="text-primary font-bold mr-2">•</span>
+                The exact sequence your body needs to reconnect mind to movement
+              </li>
+              <li className="flex items-start">
+                <span className="text-primary font-bold mr-2">•</span>
+                Which movements heal YOUR structure vs harm it
+              </li>
+            </ul>
 
-          <p className="text-base text-left mt-6">
-            This isn't generic advice. This is precision engineering for your specific body based on the largest 
-            research database in the world on people over 50.
-          </p>
+            <div className="bg-white p-6 rounded-lg mt-8">
+              <p className="text-xl md:text-2xl text-left font-semibold text-primary">
+                This isn't generic advice. This is precision engineering for your specific body based on the largest 
+                research database in the world on people over 50.
+              </p>
+            </div>
+          </Card>
 
-          <h3 className="text-xl font-bold mb-4 mt-12">The Investment</h3>
-          
-          <div className="space-y-4 text-left">
-            <p className="text-base">
-              <span className="font-semibold">These consultations normally run $300. During your Full Body Fix, Just $97</span>
-            </p>
-            <p className="text-base">
-              We're cash-pay for a reason. Insurance would force us to treat just your knee when your real problem 
-              starts in your mind's connection to your whole body.
-            </p>
-          </div>
+          {/* Section 4 - Investment */}
+          <Card className="p-8 bg-primary/10 border-l-8 border-primary shadow-lg">
+            <h3 className="text-2xl md:text-3xl font-bold text-center mb-8 text-primary">The Investment</h3>
+            
+            <div className="space-y-6 text-center">
+              <div className="bg-primary text-primary-foreground p-6 rounded-xl">
+                <p className="text-2xl md:text-3xl font-bold">
+                  These consultations normally run $300
+                </p>
+                <p className="text-3xl md:text-4xl font-bold mt-2">
+                  During your Full Body Fix: Just $97
+                </p>
+              </div>
+              <p className="text-xl md:text-2xl text-left">
+                We're cash-pay for a reason. Insurance would force us to treat just your knee when your real problem 
+                starts in your mind's connection to your whole body.
+              </p>
+            </div>
+          </Card>
 
-          <h3 className="text-xl font-bold mb-4 mt-8">
-            Only 25 Spots Available This Week (5 available consultation slots per day)
-          </h3>
-          
-          <h3 className="text-xl font-bold mb-4">Book Your Session:</h3>
-          
-          <ol className="space-y-2 text-left text-base ml-6">
-            <li>1. Click any light blue date below</li>
-            <li>2. Choose your preferred time</li>
-            <li>3. Enter your information</li>
-            <li>4. You'll receive confirmation immediately</li>
-          </ol>
+          {/* Section 5 - Booking */}
+          <Card className="p-8 bg-muted border-l-8 border-primary shadow-lg">
+            <h3 className="text-2xl md:text-3xl font-bold text-center mb-6 text-primary">
+              Only 25 Spots Available This Week
+            </h3>
+            <p className="text-center text-xl md:text-2xl mb-8 text-foreground">(5 available consultation slots per day)</p>
+            
+            <div className="bg-white p-6 rounded-lg">
+              <h3 className="text-2xl md:text-3xl font-bold text-center mb-6 text-primary">Book Your Session:</h3>
+              
+              <ol className="space-y-4 text-left text-xl md:text-2xl ml-8">
+                <li className="flex items-start">
+                  <span className="bg-primary text-primary-foreground rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 mt-1">1</span>
+                  Click any light blue date below
+                </li>
+                <li className="flex items-start">
+                  <span className="bg-primary text-primary-foreground rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 mt-1">2</span>
+                  Choose your preferred time
+                </li>
+                <li className="flex items-start">
+                  <span className="bg-primary text-primary-foreground rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 mt-1">3</span>
+                  Enter your information
+                </li>
+                <li className="flex items-start">
+                  <span className="bg-primary text-primary-foreground rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 mt-1">4</span>
+                  You'll receive confirmation immediately
+                </li>
+              </ol>
+            </div>
+          </Card>
         </div>
 
         {/* Calendly Embed */}
         <CalendlyEmbed />
 
         {/* Footer Content */}
-        <div className="max-w-3xl mx-auto space-y-6 text-left mt-12">
-          <p className="text-base">
-            Some people take what they learn and work on it alone. Most realize they need expert guidance 
-            to rewire patterns built over decades. Both are fine. This session gives you clarity either way.
-          </p>
-          
-          <p className="text-base font-semibold">
-            P.S. - Fitness isn't 90% exercise or nutrition. It's 99% psychology. If your mind doesn't connect 
-            with your body, nothing else works. Our experts understand this. That's why they succeed where others fail.
-          </p>
-        </div>
+        <Card className="max-w-4xl mx-auto p-8 mt-16 bg-info-bg border-l-8 border-info-border">
+          <div className="space-y-6 text-left">
+            <p className="text-xl md:text-2xl">
+              Some people take what they learn and work on it alone. Most realize they need expert guidance 
+              to rewire patterns built over decades. Both are fine. This session gives you clarity either way.
+            </p>
+            
+            <div className="bg-white p-6 rounded-lg">
+              <p className="text-xl md:text-2xl font-bold text-primary">
+                P.S. - Fitness isn't 90% exercise or nutrition. It's 99% psychology. If your mind doesn't connect 
+                with your body, nothing else works. Our experts understand this. That's why they succeed where others fail.
+              </p>
+            </div>
+          </div>
+        </Card>
       </div>
     </div>
   );

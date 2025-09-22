@@ -24,11 +24,11 @@ All colors MUST be HSL.
     --secondary: 45 25% 90%;
     --secondary-foreground: 0 0% 20%;
 
-    --muted: 45 20% 92%;
+    --muted: 0 0% 96%;
     --muted-foreground: 0 0% 45%;
 
-    --accent: 45 25% 88%;
-    --accent-foreground: 0 0% 20%;
+    --accent: 36 100% 50%; /* Orange accent */
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
@@ -42,7 +42,16 @@ All colors MUST be HSL.
     --warning-border: 45 100% 70%; /* Yellow border */
     --warning-text: 0 100% 50%; /* Red text */
 
-    --radius: 0.5rem;
+    /* Additional colors for sections */
+    --success-bg: 120 60% 95%;
+    --success-border: 120 60% 70%;
+    --success-text: 120 60% 30%;
+
+    --info-bg: 210 100% 95%;
+    --info-border: 210 100% 70%;
+    --info-text: 210 100% 30%;
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 

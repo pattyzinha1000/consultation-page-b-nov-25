@@ -52,6 +52,16 @@ export default {
           border: "hsl(var(--warning-border))",
           text: "hsl(var(--warning-text))",
         },
+        success: {
+          bg: "hsl(var(--success-bg))",
+          border: "hsl(var(--success-border))",
+          text: "hsl(var(--success-text))",
+        },
+        info: {
+          bg: "hsl(var(--info-bg))",
+          border: "hsl(var(--info-border))",
+          text: "hsl(var(--info-text))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
