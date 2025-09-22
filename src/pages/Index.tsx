@@ -27,7 +27,6 @@ const Index = () => {
           <h1 className="text-4xl md:text-6xl font-bold mb-4 text-foreground leading-tight">
             Autumn Couldn't Carry Her Grandson to the Thanksgiving Table
           </h1>
-          <p className="text-2xl md:text-3xl text-foreground mb-8">She was 67. Not 87.</p>
         </div>
 
         {/* Video Section */}
