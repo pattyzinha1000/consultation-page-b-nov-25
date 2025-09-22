@@ -80,7 +80,7 @@ const Index = () => {
               <h2 className="text-3xl md:text-5xl font-bold text-center mb-4 text-foreground">
                 Autumn Couldn't Carry Her Grandson to the Thanksgiving Table
               </h2>
-              <p className="text-2xl md:text-3xl text-center mb-6 text-foreground">She was 67. Not 87.</p>
+              <p className="text-2xl md:text-3xl text-left mb-6 text-foreground">She was 67. Not 87.</p>
               
               <div className="space-y-4 text-xl md:text-2xl text-foreground">
                 <p>Earlier that year, she was riding motorcycles with her husband every weekend. Day trips through Texas hill country.</p>
