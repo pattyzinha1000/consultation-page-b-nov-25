@@ -72,7 +72,7 @@ const Index = () => {
           
           {/* What Nobody Told Autumn */}
           <Card className="p-8 bg-info-bg border-l-8 border-info-border shadow-lg">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 text-info-text">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-8" style={{ color: '#000000' }}>
               Autumn knew something was wrong. The doctors didn't.
             </h2>
             
