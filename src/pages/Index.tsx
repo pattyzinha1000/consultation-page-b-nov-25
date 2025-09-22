@@ -116,7 +116,7 @@ const Index = () => {
               <p>Massages that helped for a week.</p>
               <p>Can't carry her grandson without pain.</p>
               <p>Can't hold her motorcycle up anymore.</p>
-              <p className="font-bold text-warning-text">For 18 months, she lived smaller and smaller.</p>
+              <p className="font-bold" style={{ color: '#000000' }}>For 18 months, she lived smaller and smaller.</p>
             </div>
           </Card>
 
