@@ -271,7 +271,7 @@ const Index = () => {
                 She wishes she'd known sooner.
               </p>
               
-              <div className="bg-white p-4 sm:p-6 rounded-lg">
+              <div className="bg-white p-4 sm:p-6 pb-2 sm:pb-3 rounded-lg">
                 <p className="text-lg sm:text-2xl md:text-3xl font-bold text-center text-primary">
                   Pick Your Time Below:
                 </p>
