@@ -35,12 +35,6 @@ const Index = () => {
           </div>
         </div>
 
-        {/* Warning Box */}
-        <WarningBox 
-          title="You're Only Going To See This Video Once"
-          subtitle="It's not available at any other time on any other page"
-        />
-
         {/* Pre-video message */}
         <div className="text-center mb-8 max-w-4xl mx-auto">
           <p className="text-xl md:text-2xl text-foreground mb-4">
