@@ -244,7 +244,7 @@ const Index = () => {
               <p className="text-xl md:text-2xl">She'd trade those 18 months for the 90 minutes you're considering right now.</p>
               <p className="text-xl md:text-2xl">They'll fill. They always do in October.</p>
               <p className="text-xl md:text-2xl">Because October is when people act. January is when they wish they had.</p>
-              <p className="text-2xl md:text-3xl font-bold text-center text-primary mb-8">Which one will you be?</p>
+              <p className="text-2xl md:text-3xl font-bold text-left text-primary mb-8">Which one will you be?</p>
               
               <p className="text-xl md:text-2xl">
                 Wherever you are on this journey, you deserve to know what's really happening.
