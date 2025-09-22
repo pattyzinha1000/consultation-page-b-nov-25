@@ -75,7 +75,6 @@ const Index = () => {
           
           {/* What Nobody Told Autumn */}
           <Card className="p-8 bg-info-bg border-l-8 border-info-border shadow-lg">
-            <h3 className="text-2xl md:text-3xl font-bold mb-6 text-primary">Here's What Nobody Told Autumn:</h3>
             
             <div className="bg-white p-8 rounded-lg mb-8 border-l-4 border-primary">
               <h2 className="text-3xl md:text-5xl font-bold text-center mb-4 text-foreground">
