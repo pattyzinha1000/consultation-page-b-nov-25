@@ -198,22 +198,14 @@ const Index = () => {
             </div>
           </Card>
 
-          {/* You found us today block */}
-          <Card className="p-8 bg-muted border-l-8 border-primary shadow-lg">
-            <div className="flex flex-col md:flex-row items-center gap-8">
-              <div className="flex-1">
-                <img 
-                  src={laptopImg} 
-                  alt="Consultation with The Fitness Doctor" 
-                  className="w-full max-w-md mx-auto rounded-lg shadow-lg"
-                />
-              </div>
-              <div className="flex-1 text-center md:text-left">
-                <p className="text-3xl md:text-4xl font-bold text-foreground mb-4">You found us today.</p>
-                <p className="text-3xl md:text-4xl font-bold text-primary">Don't waste it.</p>
-              </div>
-            </div>
-          </Card>
+          {/* Laptop Image Section */}
+          <div className="max-w-4xl mx-auto text-center py-12" style={{ backgroundColor: '#ffffff' }}>
+            <img 
+              src={laptopImg} 
+              alt="Consultation with The Fitness Doctor" 
+              className="w-full max-w-2xl mx-auto rounded-lg shadow-lg"
+            />
+          </div>
 
           {/* Final Call to Action */}
           <Card className="p-8 bg-warning-bg border-l-8 border-warning-border shadow-lg">
