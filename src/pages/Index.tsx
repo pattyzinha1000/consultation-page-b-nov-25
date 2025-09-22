@@ -216,7 +216,7 @@ const Index = () => {
               YES! UPGRADE MY EXPERIENCE
             </Button>
             
-            <p className="text-4xl font-bold mb-2 text-foreground">Only 5 Total Available Today</p>
+            <p className="text-4xl font-bold mb-2 text-foreground">Limited Spots Filling Fast</p>
             <p className="text-3xl text-muted-foreground mb-4">Special Event Pricing Ends Soon</p>
             
             {/* Countdown Timer */}
