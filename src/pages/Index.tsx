@@ -54,24 +54,24 @@ const Index = () => {
             YES! UPGRADE MY EXPERIENCE
           </Button>
           
-          <p className="text-xl font-bold mb-2 text-foreground">Limited Spots Filling Fast</p>
-          <p className="text-lg text-muted-foreground mb-4">Special Event Pricing Ends Soon</p>
+          <p className="text-2xl font-bold mb-2 text-foreground">Limited Spots Filling Fast</p>
+          <p className="text-xl text-muted-foreground mb-6">Special Event Pricing Ends Soon</p>
           
           {/* Countdown Timer */}
-          <div className="flex justify-center items-center gap-2 text-3xl font-bold text-foreground">
+          <div className="flex justify-center items-center gap-4 text-4xl font-bold text-foreground">
             <div className="text-center">
-              <div className="bg-white px-4 py-2 rounded-lg shadow-md min-w-[60px]">00</div>
-              <div className="text-xs mt-1 text-muted-foreground">HOURS</div>
+              <div className="bg-white px-6 py-4 rounded-xl shadow-md min-w-[80px] text-5xl">00</div>
+              <div className="text-sm mt-2 text-muted-foreground font-medium">HOURS</div>
             </div>
-            <div className="text-2xl">:</div>
+            <div className="text-4xl mb-8">:</div>
             <div className="text-center">
-              <div className="bg-white px-4 py-2 rounded-lg shadow-md min-w-[60px]">08</div>
-              <div className="text-xs mt-1 text-muted-foreground">MINS</div>
+              <div className="bg-white px-6 py-4 rounded-xl shadow-md min-w-[80px] text-5xl">08</div>
+              <div className="text-sm mt-2 text-muted-foreground font-medium">MINS</div>
             </div>
-            <div className="text-2xl">:</div>
+            <div className="text-4xl mb-8">:</div>
             <div className="text-center">
-              <div className="bg-white px-4 py-2 rounded-lg shadow-md min-w-[60px]">51</div>
-              <div className="text-xs mt-1 text-muted-foreground">SECS</div>
+              <div className="bg-white px-6 py-4 rounded-xl shadow-md min-w-[80px] text-5xl">51</div>
+              <div className="text-sm mt-2 text-muted-foreground font-medium">SECS</div>
             </div>
           </div>
         </div>
