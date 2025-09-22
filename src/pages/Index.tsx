@@ -77,7 +77,7 @@ const Index = () => {
           <Card className="p-8 bg-info-bg border-l-8 border-info-border shadow-lg">
             
             <div className="bg-white p-8 rounded-lg mb-8 border-l-4 border-primary">
-              <h2 className="text-3xl md:text-5xl font-bold text-center mb-4 text-foreground">
+              <h2 className="text-3xl md:text-5xl font-bold text-left mb-4 text-foreground">
                 Autumn Couldn't Carry Her Grandson to the Thanksgiving Table
               </h2>
               <p className="text-2xl md:text-3xl text-left mb-6 text-foreground">She was 67. Not 87.</p>
