@@ -82,6 +82,12 @@ const Index = () => {
               </div>
             </div>
             
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-8" style={{ color: '#000000' }}>
+              Autumn knew something was wrong. The doctors didn't.
+            </h2>
+            
+            <h3 className="text-2xl md:text-3xl font-bold mb-6 text-primary">Here's What Nobody Told Autumn:</h3>
+            
             <div className="space-y-6 text-left">
               <p className="text-xl md:text-2xl">The morning stiffness wasn't "just age." That gradual weakness wasn't normal. Her body had been warning her for months.</p>
               <p className="text-xl md:text-2xl font-bold text-primary">Then it stopped asking and started telling.</p>
