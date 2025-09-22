@@ -271,14 +271,14 @@ const Index = () => {
                 She wishes she'd known sooner.
               </p>
               
-              <div className="bg-white p-4 sm:p-6 rounded-lg">
+              <div className="bg-white p-4 sm:p-6 rounded-lg mb-0">
                 <p className="text-lg sm:text-2xl md:text-3xl font-bold text-center text-primary">
                   Pick Your Time Below:
                 </p>
               </div>
               
               {/* Calendly inline widget */}
-              <div>
+              <div className="-mt-4 sm:-mt-6">
                 <div 
                   className="calendly-inline-widget" 
                   data-url="https://calendly.com/d/cmdh-g6z-fxh/your-private-consultation?hide_gdpr_banner=1&utm_source=consult-page-jon-version" 
