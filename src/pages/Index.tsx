@@ -101,7 +101,7 @@ const Index = () => {
             </h2>
             
             <div className="bg-white p-6 rounded-lg mb-6">
-              <p className="text-xl md:text-2xl font-bold text-center mb-4 text-primary">The image burned into her memory:</p>
+              <p className="text-xl md:text-2xl font-bold text-left mb-4 text-primary">The image burned into her memory:</p>
               <div className="space-y-3 text-left text-xl md:text-2xl">
                 <p>Her family watching.</p>
                 <p>Her 2-year-old grandson reaching up.</p>
