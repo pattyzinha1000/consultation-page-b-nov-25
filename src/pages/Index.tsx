@@ -23,21 +23,6 @@ const Index = () => {
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-6xl font-bold mb-8 text-foreground leading-tight">You're In The Full Body Fix - Here's What the Top 3% Do Next</h1>
           
-          <div className="bg-muted p-8 rounded-xl mb-8 max-w-4xl mx-auto">
-            <p className="text-2xl md:text-3xl text-foreground font-medium">
-              You're officially registered for the <strong className="text-primary">5-Day Full Body Fix</strong> starting November 1st. You'll get all the details soon.
-            </p>
-          </div>
-        </div>
-
-        {/* Pre-video message */}
-        <div className="text-center mb-8 max-w-4xl mx-auto">
-          <p className="text-xl md:text-2xl text-foreground mb-4">
-            But right now, Robbie has a 3-minute message for you. He's about to explain something we discovered after analyzing over 1 million cases.
-          </p>
-          <p className="text-xl md:text-2xl font-bold text-primary">
-            Watch this now - you'll only see it once:
-          </p>
         </div>
 
         {/* Video Section */}
