@@ -28,12 +28,6 @@ const Index = () => {
             Autumn Couldn't Carry Her Grandson to the Thanksgiving Table
           </h1>
           <p className="text-2xl md:text-3xl text-foreground mb-8">She was 67. Not 87.</p>
-          
-          <div className="max-w-4xl mx-auto text-left space-y-4 text-xl md:text-2xl text-foreground">
-            <p>Earlier that year, she was riding motorcycles with her husband every weekend. Day trips through Texas hill country.</p>
-            <p>Then her back seized at Thanksgiving. So bad she needed a walker to get to dinner.</p>
-            <p>The doctors had no real answers. Normal aging. Maybe try chiropractic. Here's some ibuprofen.</p>
-          </div>
         </div>
 
         {/* Video Section */}
