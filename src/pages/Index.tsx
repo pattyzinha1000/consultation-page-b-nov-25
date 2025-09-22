@@ -213,7 +213,7 @@ const Index = () => {
               className="text-4xl font-bold py-10 px-20 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-200 mb-6" 
               style={{ backgroundColor: '#08ff00', color: '#000000' }}
             >
-              YES! UPGRADE MY EXPERIENCE
+              CLAIM MY $97 CONSULTATION SPOT
             </Button>
             
             <p className="text-4xl font-bold mb-2 text-foreground">Limited Spots Filling Fast</p>
