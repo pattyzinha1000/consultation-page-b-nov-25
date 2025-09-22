@@ -135,9 +135,9 @@ const Index = () => {
             </div>
 
             <div className="bg-white p-6 rounded-lg mt-8">
-              <p className="text-2xl md:text-3xl font-bold text-center text-primary">"You're Not Broken. You're Compensating. There's a Difference."</p>
-              <p className="text-xl md:text-2xl text-center mt-4">One means decline. The other means fixable.</p>
-              <p className="text-xl md:text-2xl text-center font-bold text-success-text">18 months of decline and minutes to find the real problem.</p>
+              <p className="text-2xl md:text-3xl font-bold text-left text-primary">"You're Not Broken. You're Compensating. There's a Difference."</p>
+              <p className="text-xl md:text-2xl text-left mt-4">One means decline. The other means fixable.</p>
+              <p className="text-xl md:text-2xl text-left font-bold text-success-text">18 months of decline and minutes to find the real problem.</p>
             </div>
           </Card>
 
