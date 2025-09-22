@@ -18,7 +18,7 @@ export const CalendlyEmbed = () => {
       <div 
         className="calendly-inline-widget rounded-lg overflow-hidden shadow-lg" 
         data-url="https://calendly.com/d/cmdh-g6z-fxh/your-private-consultation?hide_gdpr_banner=1&utm_source=consult-page-jon-version" 
-        style={{ minWidth: '320px', height: '1000px' }}
+        style={{ minWidth: '320px', height: '1500px' }}
       />
     </div>
   );
