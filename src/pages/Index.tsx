@@ -48,13 +48,32 @@ const Index = () => {
         {/* Video Section */}
         <VideoEmbed embedCode={videoEmbedCode} />
 
-        {/* CTA Button */}
-        <div className="text-center my-12">
-          <Button className="bg-primary hover:bg-primary/90 text-primary-foreground text-2xl font-bold py-6 px-12 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-200">
-            BOOK YOUR CONSULTATION NOW
+        {/* CTA Button with Timer */}
+        <div className="text-center my-12 bg-muted p-8 rounded-xl max-w-2xl mx-auto shadow-lg">
+          <Button className="bg-primary hover:bg-primary/90 text-primary-foreground text-2xl font-bold py-6 px-12 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-200 mb-6">
+            YES! UPGRADE MY EXPERIENCE
           </Button>
-          <p className="text-xl font-semibold mt-4 text-foreground">Limited Staff and Dates Available</p>
-          <p className="text-lg text-primary font-bold mt-2">Hurry! Only 13 Slots Left</p>
+          
+          <p className="text-xl font-bold mb-2 text-foreground">Limited Spots Filling Fast</p>
+          <p className="text-lg text-muted-foreground mb-4">Special Event Pricing Ends Soon</p>
+          
+          {/* Countdown Timer */}
+          <div className="flex justify-center items-center gap-2 text-3xl font-bold text-foreground">
+            <div className="text-center">
+              <div className="bg-white px-4 py-2 rounded-lg shadow-md min-w-[60px]">00</div>
+              <div className="text-xs mt-1 text-muted-foreground">HOURS</div>
+            </div>
+            <div className="text-2xl">:</div>
+            <div className="text-center">
+              <div className="bg-white px-4 py-2 rounded-lg shadow-md min-w-[60px]">08</div>
+              <div className="text-xs mt-1 text-muted-foreground">MINS</div>
+            </div>
+            <div className="text-2xl">:</div>
+            <div className="text-center">
+              <div className="bg-white px-4 py-2 rounded-lg shadow-md min-w-[60px]">51</div>
+              <div className="text-xs mt-1 text-muted-foreground">SECS</div>
+            </div>
+          </div>
         </div>
 
         {/* Main Content Sections */}
