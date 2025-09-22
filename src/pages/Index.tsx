@@ -168,8 +168,8 @@ const Index = () => {
               <p className="text-xl md:text-2xl">These aren't cookie-cutter programs or 15-minute Physical Therapy evals.</p>
               
               <div className="bg-white p-6 rounded-lg mt-6">
-                <p className="text-xl md:text-2xl font-bold text-primary text-center">This is 90 minutes with someone who sees what others can't. Who finds the pattern keeping you stuck.</p>
-                <p className="text-xl md:text-2xl font-bold text-primary text-center mt-4">They'll know in 90 minutes what others miss for years.</p>
+                <p className="text-xl md:text-2xl font-bold text-left mt-4" style={{ color: '#000000' }}>This is 90 minutes with someone who sees what others can't. Who finds the pattern keeping you stuck.</p>
+                <p className="text-xl md:text-2xl font-bold text-left mt-4" style={{ color: '#000000' }}>They'll know in 90 minutes what others miss for years.</p>
               </div>
             </div>
           </Card>
