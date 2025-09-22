@@ -50,7 +50,7 @@ const Index = () => {
 
         {/* CTA Button with Timer */}
         <div className="text-center my-12 bg-muted p-8 rounded-xl max-w-2xl mx-auto shadow-lg">
-          <Button className="bg-primary hover:bg-primary/90 text-3xl font-bold py-8 px-16 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-200 mb-6" style={{color: '#000000'}}>
+          <Button className="bg-primary hover:bg-primary/90 text-4xl font-bold py-10 px-20 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-200 mb-6" style={{color: '#000000'}}>
             YES! UPGRADE MY EXPERIENCE
           </Button>
           
