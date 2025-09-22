@@ -82,7 +82,7 @@ const Index = () => {
               </div>
             </div>
             
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-8" style={{ color: '#000000' }}>
+            <h2 className="text-3xl md:text-4xl font-bold text-left mb-8" style={{ color: '#000000' }}>
               Autumn knew something was wrong. The doctors didn't.
             </h2>
             
