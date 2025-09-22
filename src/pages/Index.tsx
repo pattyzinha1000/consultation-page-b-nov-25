@@ -90,7 +90,7 @@ const Index = () => {
             
             <div className="space-y-6 text-left">
               <p className="text-xl md:text-2xl">The morning stiffness wasn't "just age." That gradual weakness wasn't normal. Her body had been warning her for months.</p>
-              <p className="text-xl md:text-2xl font-bold text-primary">Then it stopped asking and started telling.</p>
+              <p className="text-xl md:text-2xl font-bold" style={{ color: '#000000' }}>Then it stopped asking and started telling.</p>
             </div>
           </Card>
 
