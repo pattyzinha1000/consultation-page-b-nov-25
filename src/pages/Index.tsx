@@ -1,11 +1,26 @@
+import { useEffect } from "react";
 import { WarningBox } from "@/components/WarningBox";
 import { VideoEmbed } from "@/components/VideoEmbed";
-import { CalendlyEmbed } from "@/components/CalendlyEmbed";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import laptopImg from "@/assets/laptop-img.png";
 
 const Index = () => {
+  useEffect(() => {
+    // Load Calendly widget script
+    const script = document.createElement("script");
+    script.src = "https://assets.calendly.com/assets/external/widget.js";
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      const existingScript = document.querySelector('script[src="https://assets.calendly.com/assets/external/widget.js"]');
+      if (existingScript) {
+        document.body.removeChild(existingScript);
+      }
+    };
+  }, []);
+
   const videoEmbedCode = `
     <div style="padding:56.25% 0 0 0;position:relative;">
       <iframe src="https://player.vimeo.com/video/1062108679?h=dbffde1c1c&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
@@ -262,9 +277,13 @@ const Index = () => {
                 </p>
               </div>
               
-              {/* Calendly Embed */}
+              {/* Calendly inline widget */}
               <div className="mt-4">
-                <CalendlyEmbed />
+                <div 
+                  className="calendly-inline-widget" 
+                  data-url="https://calendly.com/d/cmdh-g6z-fxh/your-private-consultation?hide_gdpr_banner=1&utm_source=consult-page-jon-version" 
+                  style={{minWidth: '320px', height: '1500px'}}
+                />
               </div>
             </div>
           </Card>
