@@ -129,7 +129,7 @@ const Index = () => {
             <div className="space-y-6 text-left">
               <p className="text-xl md:text-2xl">Not right after the incident. After 18 months of trying everything else.</p>
               <p className="text-xl md:text-2xl">Our specialist spent 90 minutes with her. It was a real assessment. Not the 15-minute rush she was used to.</p>
-              <p className="text-xl md:text-2xl">He mapped the entire compensation pattern.</p>
+              <p className="text-xl md:text-2xl">We mapped the entire compensation pattern.</p>
               <p className="text-xl md:text-2xl">Yes, her pelvis sits higher on one side - but that's just the start. Her knees cave. Her back arches to compensate. Her glutes went offline completely.</p>
               <p className="text-xl md:text-2xl font-bold text-primary">Everyone treated pieces. Nobody mapped the whole system.</p>
             </div>
