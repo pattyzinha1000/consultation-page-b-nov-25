@@ -55,7 +55,7 @@ const Index = () => {
           </Button>
           
           <p className="text-2xl font-bold mb-2 text-foreground">Limited Spots Filling Fast</p>
-          <p className="text-xl text-muted-foreground mb-6">Special Event Pricing Ends Soon</p>
+          <p className="text-3xl text-muted-foreground mb-6">Special Event Pricing Ends Soon</p>
           
           {/* Countdown Timer */}
           <div className="flex justify-center items-center gap-4 text-4xl font-bold text-foreground">
