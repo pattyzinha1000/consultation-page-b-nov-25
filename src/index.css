@@ -18,16 +18,16 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 20%;
 
-    --primary: 36 100% 50%; /* Orange CTA color */
+    --primary: 253 54% 52%; /* Purple CTA color #7244da */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 45 25% 90%;
-    --secondary-foreground: 0 0% 20%;
+    --secondary: 266 71% 97%; /* Light purple #f7f2fe */
+    --secondary-foreground: 253 54% 52%;
 
-    --muted: 0 0% 96%;
+    --muted: 266 71% 97%; /* Light purple background */
     --muted-foreground: 0 0% 45%;
 
-    --accent: 36 100% 50%; /* Orange accent */
+    --accent: 253 54% 52%; /* Purple accent */
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -35,21 +35,21 @@ All colors MUST be HSL.
 
     --border: 0 0% 90%;
     --input: 0 0% 95%;
-    --ring: 36 100% 50%;
+    --ring: 253 54% 52%;
 
-    /* Warning box colors - yellow */
-    --warning-bg: 51 100% 95%; /* Light yellow background */
-    --warning-border: 45 100% 70%; /* Yellow border */
-    --warning-text: 0 100% 50%; /* Red text */
+    /* Warning box colors - purple theme */
+    --warning-bg: 266 71% 97%; /* Light purple background */
+    --warning-border: 253 54% 70%; /* Purple border */
+    --warning-text: 253 54% 40%; /* Dark purple text */
 
     /* Additional colors for sections */
-    --success-bg: 120 60% 95%;
-    --success-border: 120 60% 70%;
-    --success-text: 120 60% 30%;
+    --success-bg: 266 71% 97%;
+    --success-border: 253 54% 70%;
+    --success-text: 253 54% 40%;
 
-    --info-bg: 210 100% 95%;
-    --info-border: 210 100% 70%;
-    --info-text: 210 100% 30%;
+    --info-bg: 266 71% 97%;
+    --info-border: 253 54% 70%;
+    --info-text: 253 54% 40%;
 
     --radius: 0.75rem;
 
@@ -78,30 +78,30 @@ All colors MUST be HSL.
     --card-foreground: 0 0% 20%;
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 20%;
-    --primary: 36 100% 50%;
+    --primary: 253 54% 52%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 45 25% 90%;
-    --secondary-foreground: 0 0% 20%;
-    --muted: 45 20% 92%;
+    --secondary: 266 71% 97%;
+    --secondary-foreground: 253 54% 52%;
+    --muted: 266 71% 97%;
     --muted-foreground: 0 0% 45%;
-    --accent: 45 25% 88%;
-    --accent-foreground: 0 0% 20%;
+    --accent: 253 54% 52%;
+    --accent-foreground: 0 0% 100%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
     --border: 0 0% 90%;
     --input: 0 0% 95%;
-    --ring: 36 100% 50%;
-    --warning-bg: 51 100% 95%;
-    --warning-border: 45 100% 70%;
-    --warning-text: 0 100% 50%;
+    --ring: 253 54% 52%;
+    --warning-bg: 266 71% 97%;
+    --warning-border: 253 54% 70%;
+    --warning-text: 253 54% 40%;
     --sidebar-background: 0 0% 100%;
     --sidebar-foreground: 0 0% 20%;
-    --sidebar-primary: 36 100% 50%;
+    --sidebar-primary: 253 54% 52%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 45 25% 88%;
-    --sidebar-accent-foreground: 0 0% 20%;
+    --sidebar-accent: 266 71% 97%;
+    --sidebar-accent-foreground: 253 54% 52%;
     --sidebar-border: 0 0% 90%;
-    --sidebar-ring: 36 100% 50%;
+    --sidebar-ring: 253 54% 52%;
   }
 }
 
