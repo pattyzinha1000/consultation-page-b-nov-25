@@ -41,7 +41,10 @@ const Index = () => {
 
         {/* CTA Section */}
         <div className="text-center my-12 bg-muted p-8 rounded-xl max-w-4xl mx-auto shadow-lg">
-          <Button className="bg-primary hover:bg-primary/90 text-4xl font-bold py-10 px-20 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-200 mb-6 text-primary-foreground">
+          <Button 
+            className="text-4xl font-bold py-10 px-20 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-200 mb-6" 
+            style={{ backgroundColor: '#8fd09d', color: '#ffffff' }}
+          >
             CLAIM YOUR $97 CONSULTATION
           </Button>
           
