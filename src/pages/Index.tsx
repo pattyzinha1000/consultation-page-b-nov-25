@@ -131,7 +131,7 @@ const Index = () => {
               <p className="text-xl md:text-2xl">Our specialist spent 90 minutes with her. It was a real assessment. Not the 15-minute rush she was used to.</p>
               <p className="text-xl md:text-2xl">We mapped the entire compensation pattern.</p>
               <p className="text-xl md:text-2xl">Yes, her pelvis sits higher on one side - but that's just the start. Her knees cave. Her back arches to compensate. Her glutes went offline completely.</p>
-              <p className="text-xl md:text-2xl font-bold text-primary">Everyone treated pieces. Nobody mapped the whole system.</p>
+              <p className="text-xl md:text-2xl font-bold" style={{ color: '#000000' }}>Everyone treated pieces. Nobody mapped the whole system.</p>
             </div>
 
             <div className="bg-white p-6 rounded-lg mt-8">
