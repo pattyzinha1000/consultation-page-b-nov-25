@@ -148,7 +148,7 @@ const Index = () => {
             </h2>
             
             <div className="space-y-6 text-left">
-              <p className="text-xl md:text-2xl">She's five months into her program, hasn't needed the walker, and is building toward riding again next spring.</p>
+              <p className="text-xl md:text-2xl">She's been with The Fitness Doctor for five months, no longer needs her walker, and is building toward riding again next spring.</p>
               <p className="text-xl md:text-2xl">But she lost Thanksgiving 2023. Lost Christmas. Lost 18 months she can't get back.</p>
               <p className="text-xl md:text-2xl">All because she was getting temporary fixes, not real answers.</p>
               <p className="text-xl md:text-2xl font-bold text-primary">Nobody connected the dots.</p>
