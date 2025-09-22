@@ -78,6 +78,19 @@ const Index = () => {
             
             <h3 className="text-2xl md:text-3xl font-bold mb-6 text-primary">Here's What Nobody Told Autumn:</h3>
             
+            <div className="bg-white p-8 rounded-lg mb-8 border-l-4 border-primary">
+              <h2 className="text-3xl md:text-5xl font-bold text-center mb-4 text-foreground">
+                Autumn Couldn't Carry Her Grandson to the Thanksgiving Table
+              </h2>
+              <p className="text-2xl md:text-3xl text-center mb-6 text-foreground">She was 67. Not 87.</p>
+              
+              <div className="space-y-4 text-xl md:text-2xl text-foreground">
+                <p>Earlier that year, she was riding motorcycles with her husband every weekend. Day trips through Texas hill country.</p>
+                <p>Then her back seized at Thanksgiving. So bad she needed a walker to get to dinner.</p>
+                <p>The doctors had no real answers. Normal aging. Maybe try chiropractic. Here's some ibuprofen.</p>
+              </div>
+            </div>
+            
             <div className="space-y-6 text-left">
               <p className="text-xl md:text-2xl">The morning stiffness wasn't "just age." That gradual weakness wasn't normal. Her body had been warning her for months.</p>
               <p className="text-xl md:text-2xl font-bold text-primary">Then it stopped asking and started telling.</p>
