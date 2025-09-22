@@ -266,7 +266,9 @@ const Index = () => {
         </div>
 
         {/* Calendly Embed */}
-        <CalendlyEmbed />
+        <div className="mt-4">
+          <CalendlyEmbed />
+        </div>
 
       </div>
     </div>
