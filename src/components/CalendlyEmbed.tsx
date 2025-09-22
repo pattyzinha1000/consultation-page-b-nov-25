@@ -17,7 +17,7 @@ export const CalendlyEmbed = () => {
     <div className="max-w-4xl mx-auto mb-8">
       <div 
         className="calendly-inline-widget rounded-lg overflow-hidden shadow-lg" 
-        data-url="https://calendly.com/d/cmdh-g6z-fxh/your-private-consultation?hide_event_type_details=1&hide_gdpr_banner=1&utm_source=consult-page-jon-version" 
+        data-url="https://calendly.com/d/cmdh-g6z-fxh/your-private-consultation?hide_gdpr_banner=1&utm_source=consult-page-jon-version" 
         style={{ minWidth: '320px', height: '700px' }}
       />
     </div>
