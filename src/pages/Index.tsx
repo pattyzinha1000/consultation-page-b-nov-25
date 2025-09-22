@@ -207,6 +207,37 @@ const Index = () => {
             />
           </div>
 
+          {/* CTA Section with Green Button */}
+          <div className="text-center my-12 bg-muted p-8 rounded-xl max-w-4xl mx-auto shadow-lg">
+            <Button 
+              className="text-4xl font-bold py-10 px-20 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-200 mb-6" 
+              style={{ backgroundColor: '#08ff00', color: '#000000' }}
+            >
+              YES! UPGRADE MY EXPERIENCE
+            </Button>
+            
+            <p className="text-4xl font-bold mb-2 text-foreground">Only 5 Total Available Today</p>
+            <p className="text-3xl text-muted-foreground mb-4">Special Event Pricing Ends Soon</p>
+            
+            {/* Countdown Timer */}
+            <div className="flex justify-center items-center gap-4 text-4xl font-bold text-foreground">
+              <div className="text-center">
+                <div className="bg-white px-6 py-4 rounded-lg shadow-md min-w-[80px]">00</div>
+                <div className="text-sm mt-2 text-muted-foreground">HOURS</div>
+              </div>
+              <div className="text-3xl">:</div>
+              <div className="text-center">
+                <div className="bg-white px-6 py-4 rounded-lg shadow-md min-w-[80px]">08</div>
+                <div className="text-sm mt-2 text-muted-foreground">MINS</div>
+              </div>
+              <div className="text-3xl">:</div>
+              <div className="text-center">
+                <div className="bg-white px-6 py-4 rounded-lg shadow-md min-w-[80px]">51</div>
+                <div className="text-sm mt-2 text-muted-foreground">SECS</div>
+              </div>
+            </div>
+          </div>
+
           {/* Final Call to Action */}
           <Card className="p-8 bg-warning-bg border-l-8 border-warning-border shadow-lg">
             <div className="space-y-6 text-left">
