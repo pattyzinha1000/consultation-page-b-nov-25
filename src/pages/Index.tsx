@@ -277,14 +277,16 @@ const Index = () => {
                 </p>
               </div>
               
-              {/* Calendly inline widget */}
+              {/* Calendly inline widget begin */}
               <div className="-mt-4 sm:-mt-6">
                 <div 
-                  className="calendly-inline-widget" 
-                  data-url="https://calendly.com/d/cmdh-g6z-fxh/your-private-consultation?hide_gdpr_banner=1&utm_source=consult-page-jon-version" 
+                  className="calendly-inline-widget"       
+                  data-url="https://calendly.com/d/cmdh-g6z-fxh/your-private-consultation?hide_gdpr_banner=1&utm_source=consult-page-jon-version"       
                   style={{minWidth: '320px', height: '1500px'}}
                 />
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
               </div>
+              {/* Calendly inline widget end */}
             </div>
           </Card>
         </div>
