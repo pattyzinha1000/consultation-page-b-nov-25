@@ -268,26 +268,6 @@ const Index = () => {
         {/* Calendly Embed */}
         <CalendlyEmbed />
 
-        {/* Footer Content */}
-        <Card className="max-w-4xl mx-auto p-8 mt-16 bg-info-bg border-l-8 border-info-border">
-          <div className="space-y-6 text-left">
-            <p className="text-xl md:text-2xl">
-              Wherever you are on this journey, you deserve to know what's really happening.
-            </p>
-            <p className="text-xl md:text-2xl">
-              Autumn knows now.
-            </p>
-            <p className="text-xl md:text-2xl font-bold text-primary">
-              She wishes she'd known sooner.
-            </p>
-            
-            <div className="bg-white p-6 rounded-lg">
-              <p className="text-2xl md:text-3xl font-bold text-center text-primary">
-                Pick Your Time Below:
-              </p>
-            </div>
-          </div>
-        </Card>
       </div>
     </div>
   );
