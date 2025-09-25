@@ -86,6 +86,25 @@ const Index = () => {
         {/* Main Content Sections */}
         <div className="max-w-4xl mx-auto space-y-8 sm:space-y-12 mb-12 sm:mb-16">
           
+          {/* New Intro Section */}
+          <Card className="p-4 sm:p-8 bg-muted border-l-4 sm:border-l-8 border-primary shadow-lg">
+            <h2 className="text-xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-8 text-primary">
+              Autumn Couldn't Carry Her Grandson to the Thanksgiving Table
+            </h2>
+            
+            <div className="space-y-4 sm:space-y-6 text-left">
+              <p className="text-lg sm:text-2xl md:text-3xl font-bold text-primary">Why should you book a private consultation?</p>
+              
+              <p className="text-base sm:text-xl md:text-2xl">Because there's one critical factor that makes all the difference between progress and frustration:</p>
+              
+              <p className="text-base sm:text-xl md:text-2xl font-bold text-primary">Uncovering the hidden compensation that's driving everything else.</p>
+              
+              <p className="text-base sm:text-xl md:text-2xl">Autumn didn't discover hers until 18 months too late.</p>
+              
+              <p className="text-base sm:text-xl md:text-2xl font-bold">Here's what I mean…</p>
+            </div>
+          </Card>
+          
           {/* What Nobody Told Autumn */}
           <Card className="p-4 sm:p-8 bg-info-bg border-l-4 sm:border-l-8 border-info-border shadow-lg">
             
