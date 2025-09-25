@@ -43,6 +43,10 @@ const Index = () => {
           <h1 className="text-xl sm:text-3xl md:text-5xl font-bold mb-4 text-foreground leading-tight px-2">
             You're In The Full Body Fix — Here's What the Top 3% Do Next
           </h1>
+          
+          <p className="text-base sm:text-xl md:text-2xl mb-6 text-foreground px-2">
+            OPTIONAL: Some of our participants like to get a head start on the event by booking a personal consultation. For private, personalized feedback, be sure to watch every second of the video below.
+          </p>
         </div>
 
         {/* Video Section */}
