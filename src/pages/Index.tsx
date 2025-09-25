@@ -40,7 +40,7 @@ const Index = () => {
         
         {/* Hero Header */}
         <div className="text-center mb-8 sm:mb-12">
-          <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold mb-4 text-foreground leading-tight px-2">
+          <h1 className="text-xl sm:text-3xl md:text-5xl font-bold mb-4 text-foreground leading-tight px-2">
             You're In The Full Body Fix — Here's What the Top 3% Do Next
           </h1>
         </div>
