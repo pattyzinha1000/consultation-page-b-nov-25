@@ -125,7 +125,7 @@ const Index = () => {
             </div>
           </Card>
 
-          {/* Thanksgiving Incident */}
+          {/* Combined Thanksgiving and Finding Us */}
           <Card className="p-4 sm:p-8 bg-warning-bg border-l-4 sm:border-l-8 border-warning-border shadow-lg">
             <h2 className="text-xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-8 text-warning-text">
               Thanksgiving 2023, Autumn's Back Gave Out
@@ -142,17 +142,14 @@ const Index = () => {
 
             <h3 className="text-lg sm:text-2xl md:text-3xl font-bold mb-4 sm:mb-6 text-warning-text">She Got Off the Walker. But She Never Got Her Life Back.</h3>
             
-            <div className="space-y-4 text-left text-base sm:text-xl md:text-2xl">
+            <div className="space-y-4 text-left text-base sm:text-xl md:text-2xl mb-8">
               <p>Chiropractic gives her some relief... Then the pain returns.</p>
               <p>Massages that helped for a week.</p>
               <p>Can't carry her grandson without pain.</p>
               <p>Can't hold her motorcycle up anymore.</p>
               <p className="font-bold" style={{ color: '#000000' }}>For 18 months, she lived smaller and smaller.</p>
             </div>
-          </Card>
 
-          {/* Finding Us */}
-          <Card className="p-4 sm:p-8 bg-success-bg border-l-4 sm:border-l-8 border-success-border shadow-lg">
             <h2 className="text-xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-8 text-success-text">
               Autumn Finally Came to Us in May 2025
             </h2>
