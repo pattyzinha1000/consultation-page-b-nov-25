@@ -289,9 +289,10 @@ const Index = () => {
                 <p className="text-lg sm:text-2xl md:text-3xl font-bold text-center text-primary">
                   Pick Your Time Below:
                 </p>
-                <div className="flex justify-center mt-2">
-                  <ChevronDown className="h-6 w-6 text-primary" />
-                </div>
+              </div>
+              
+              <div className="flex justify-center py-2">
+                <ChevronDown className="h-6 w-6 text-primary" />
               </div>
               
               {/* Calendly inline widget begin */}
