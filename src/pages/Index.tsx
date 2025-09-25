@@ -88,10 +88,6 @@ const Index = () => {
           
           {/* New Intro Section */}
           <Card className="p-4 sm:p-8 bg-muted border-l-4 sm:border-l-8 border-primary shadow-lg">
-            <h2 className="text-xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-8 text-primary">
-              Autumn Couldn't Carry Her Grandson to the Thanksgiving Table
-            </h2>
-            
             <div className="space-y-4 sm:space-y-6 text-left">
               <p className="text-lg sm:text-2xl md:text-3xl font-bold text-primary">Why should you book a private consultation?</p>
               
