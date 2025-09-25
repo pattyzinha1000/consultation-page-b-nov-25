@@ -44,7 +44,7 @@ const Index = () => {
             You're In The Full Body Fix — Here's What the Top 3% Do Next
           </h1>
           
-          <p className="text-base sm:text-xl md:text-2xl mb-6 text-foreground px-2">
+          <p className="text-base sm:text-xl md:text-2xl mb-6 text-foreground px-6 py-4 rounded-lg" style={{ backgroundColor: '#FCF7DC' }}>
             OPTIONAL: Some of our participants like to get a head start on the event by booking a personal consultation. For private, personalized feedback, be sure to watch every second of the video below.
           </p>
         </div>
