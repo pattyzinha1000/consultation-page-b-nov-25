@@ -3,6 +3,7 @@ import { WarningBox } from "@/components/WarningBox";
 import { VideoEmbed } from "@/components/VideoEmbed";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { ChevronDown } from "lucide-react";
 import laptopImg from "@/assets/laptop-img.png";
 
 const Index = () => {
@@ -288,6 +289,9 @@ const Index = () => {
                 <p className="text-lg sm:text-2xl md:text-3xl font-bold text-center text-primary">
                   Pick Your Time Below:
                 </p>
+                <div className="flex justify-center mt-2">
+                  <ChevronDown className="h-6 w-6 text-primary" />
+                </div>
               </div>
               
               {/* Calendly inline widget begin */}
