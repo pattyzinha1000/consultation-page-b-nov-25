@@ -291,7 +291,7 @@ const Index = () => {
                 </p>
               </div>
               
-              <div className="flex justify-center py-2">
+              <div className="flex justify-center py-1">
                 <ChevronDown className="h-6 w-6 text-primary animate-bounce" />
               </div>
               
