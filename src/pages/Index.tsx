@@ -273,7 +273,7 @@ const Index = () => {
               <h2 className="text-xl sm:text-3xl md:text-4xl font-bold mb-6 sm:mb-8" style={{ color: '#000000' }}>She'd trade those 18 months for the 90 minutes you're considering right now.</h2>
               <p className="text-base sm:text-xl md:text-2xl">They'll fill. They always do in October.</p>
               <p className="text-base sm:text-xl md:text-2xl">Because October is when people act. January is when they wish they had.</p>
-              <p className="text-lg sm:text-2xl md:text-3xl font-bold text-left mb-6 sm:mb-8" style={{ color: '#000000' }}>Which one will you be?</p>
+              <p className="text-lg sm:text-2xl md:text-3xl font-bold text-left mb-6 sm:mb-8" style={{ color: '#8B5CF6' }}>Which one will you be?</p>
               
               <p className="text-base sm:text-xl md:text-2xl">
                 Wherever you are on this journey, you deserve to know what's really happening.
