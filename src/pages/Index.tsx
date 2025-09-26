@@ -292,7 +292,7 @@ const Index = () => {
               </div>
               
               <div className="flex justify-center py-2">
-                <ChevronDown className="h-6 w-6 text-primary" />
+                <ChevronDown className="h-6 w-6 text-primary animate-bounce" />
               </div>
               
               {/* Calendly inline widget begin */}
