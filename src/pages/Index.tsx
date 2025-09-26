@@ -140,6 +140,15 @@ const Index = () => {
                 <p>Her 2-year-old grandson reaching up.</p>
                 <p>Her husband's hand on her elbow, getting her to her chair.</p>
               </div>
+              
+              {/* Thanksgiving Scene Image */}
+              <div className="py-4 sm:py-6">
+                <img 
+                  src={thanksgivingScene} 
+                  alt="Family gathering scene showing the emotional moment" 
+                  className="w-full max-w-md mx-auto rounded-xl shadow-lg"
+                />
+              </div>
             </div>
 
             <h3 className="text-lg sm:text-2xl md:text-3xl font-bold mb-4 sm:mb-6 text-warning-text">She Got Off the Walker. But She Never Got Her Life Back.</h3>
@@ -275,15 +284,6 @@ const Index = () => {
               <p className="text-base sm:text-xl md:text-2xl">They'll fill. They always do in October.</p>
               <p className="text-base sm:text-xl md:text-2xl">Because October is when people act. January is when they wish they had.</p>
               <p className="text-lg sm:text-2xl md:text-3xl font-bold text-left mb-6 sm:mb-8" style={{ color: '#8B5CF6' }}>Which one will you be?</p>
-              
-              {/* Thanksgiving Scene Image */}
-              <div className="py-6 sm:py-8">
-                <img 
-                  src={thanksgivingScene} 
-                  alt="Family gathering scene showing the emotional moment" 
-                  className="w-full max-w-2xl mx-auto rounded-xl shadow-lg"
-                />
-              </div>
               
               <p className="text-base sm:text-xl md:text-2xl">
                 Wherever you are on this journey, you deserve to know what's really happening.
