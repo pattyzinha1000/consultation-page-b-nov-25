@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ChevronDown } from "lucide-react";
 import laptopImg from "@/assets/laptop-img.png";
+import thanksgivingScene from "@/assets/thanksgiving-scene.webp";
 
 const Index = () => {
   useEffect(() => {
@@ -274,6 +275,15 @@ const Index = () => {
               <p className="text-base sm:text-xl md:text-2xl">They'll fill. They always do in October.</p>
               <p className="text-base sm:text-xl md:text-2xl">Because October is when people act. January is when they wish they had.</p>
               <p className="text-lg sm:text-2xl md:text-3xl font-bold text-left mb-6 sm:mb-8" style={{ color: '#8B5CF6' }}>Which one will you be?</p>
+              
+              {/* Thanksgiving Scene Image */}
+              <div className="py-6 sm:py-8">
+                <img 
+                  src={thanksgivingScene} 
+                  alt="Family gathering scene showing the emotional moment" 
+                  className="w-full max-w-2xl mx-auto rounded-xl shadow-lg"
+                />
+              </div>
               
               <p className="text-base sm:text-xl md:text-2xl">
                 Wherever you are on this journey, you deserve to know what's really happening.
