@@ -208,7 +208,7 @@ const Index = () => {
 
           {/* Combined Investment, Laptop Image, and CTA Section */}
           <Card className="p-4 sm:p-8 bg-muted border-l-4 sm:border-l-8 border-primary shadow-lg">
-            <h3 className="text-xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-8 text-primary">These Private Consultations Normally Run $300</h3>
+            <h2 className="text-xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-8 text-primary">These Private Consultations Normally Run $300</h2>
             
             <div className="space-y-4 sm:space-y-6 text-center">
               <p className="text-base sm:text-xl md:text-2xl">For 90 minutes with our full specialist team analyzing your case.</p>
