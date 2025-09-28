@@ -6,7 +6,6 @@ import { Card } from "@/components/ui/card";
 import { ChevronDown } from "lucide-react";
 import laptopImg from "@/assets/laptop-img.png";
 import thanksgivingScene from "@/assets/thanksgiving-scene.webp";
-
 const Index = () => {
   useEffect(() => {
     // Load Calendly widget script
@@ -14,7 +13,6 @@ const Index = () => {
     script.src = "https://assets.calendly.com/assets/external/widget.js";
     script.async = true;
     document.body.appendChild(script);
-
     return () => {
       const existingScript = document.querySelector('script[src="https://assets.calendly.com/assets/external/widget.js"]');
       if (existingScript) {
@@ -22,7 +20,6 @@ const Index = () => {
       }
     };
   }, []);
-
   const videoEmbedCode = `
     <div style="padding:56.25% 0 0 0;position:relative;">
       <iframe src="https://player.vimeo.com/video/1062108679?h=dbffde1c1c&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
@@ -35,9 +32,7 @@ const Index = () => {
     </div>
     <script src="https://player.vimeo.com/api/player.js"></script>
   `;
-
-  return (
-    <div className="min-h-screen bg-background font-sans">
+  return <div className="min-h-screen bg-background font-sans">
       <div className="container mx-auto px-4 sm:px-6 py-8 sm:py-12 max-w-5xl">
         
         {/* Hero Header */}
@@ -46,7 +41,9 @@ const Index = () => {
             You're In The Full Body Fix — Here's What the Top 3% Do Next
           </h1>
           
-          <p className="text-base sm:text-xl md:text-2xl mb-6 text-foreground px-6 py-4 rounded-lg" style={{ backgroundColor: '#FCF7DC' }}>
+          <p className="text-base sm:text-xl md:text-2xl mb-6 text-foreground px-6 py-4 rounded-lg" style={{
+          backgroundColor: '#FCF7DC'
+        }}>
             OPTIONAL: Some of our participants like to get a head start on the event by booking a personal consultation. For private, personalized feedback, be sure to watch every second of the video below.
           </p>
         </div>
@@ -56,10 +53,10 @@ const Index = () => {
 
         {/* CTA Section */}
         <div className="text-center my-8 sm:my-12 bg-muted p-4 sm:p-8 rounded-xl max-w-4xl mx-auto shadow-lg">
-          <Button 
-            className="text-lg sm:text-2xl md:text-4xl font-bold py-6 sm:py-8 md:py-10 px-8 sm:px-16 md:px-20 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-200 mb-6 w-full sm:w-auto" 
-            style={{ backgroundColor: '#08ff00', color: '#000000' }}
-          >
+          <Button className="text-lg sm:text-2xl md:text-4xl font-bold py-6 sm:py-8 md:py-10 px-8 sm:px-16 md:px-20 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-200 mb-6 w-full sm:w-auto" style={{
+          backgroundColor: '#08ff00',
+          color: '#000000'
+        }}>
             BOOK YOUR CONSULTATION NOW
           </Button>
           
@@ -91,7 +88,9 @@ const Index = () => {
           {/* Combined Intro and Autumn Story */}
           <Card className="p-4 sm:p-8 bg-info-bg border-l-4 sm:border-l-8 border-info-border shadow-lg">
             <div className="space-y-4 sm:space-y-6 text-left">
-              <p className="text-xl sm:text-3xl md:text-4xl font-bold mb-6 sm:mb-8" style={{ color: '#000000' }}>Why should you book a private consultation?</p>
+              <p className="text-xl sm:text-3xl md:text-4xl font-bold mb-6 sm:mb-8" style={{
+              color: '#000000'
+            }}>Why should you book a private consultation?</p>
               
               <p className="text-base sm:text-xl md:text-2xl">Because there's one critical factor that makes all the difference between progress and frustration:</p>
               
@@ -115,7 +114,9 @@ const Index = () => {
               </div>
             </div>
             
-            <h2 className="text-xl sm:text-3xl md:text-4xl font-bold text-left mb-6 sm:mb-8" style={{ color: '#000000' }}>
+            <h2 className="text-xl sm:text-3xl md:text-4xl font-bold text-left mb-6 sm:mb-8" style={{
+            color: '#000000'
+          }}>
               Autumn knew something was wrong. The doctors didn't.
             </h2>
             
@@ -123,7 +124,9 @@ const Index = () => {
             
             <div className="space-y-4 sm:space-y-6 text-left">
               <p className="text-base sm:text-xl md:text-2xl">The morning stiffness wasn't "just age." That gradual weakness wasn't normal. Her body had been warning her for months.</p>
-              <p className="text-base sm:text-xl md:text-2xl font-bold" style={{ color: '#000000' }}>Then it stopped asking and started telling.</p>
+              <p className="text-base sm:text-xl md:text-2xl font-bold" style={{
+              color: '#000000'
+            }}>Then it stopped asking and started telling.</p>
             </div>
           </Card>
 
@@ -143,11 +146,7 @@ const Index = () => {
               
               {/* Thanksgiving Scene Image */}
               <div className="py-4 sm:py-6">
-                <img 
-                  src={thanksgivingScene} 
-                  alt="Family gathering scene showing the emotional moment" 
-                  className="w-full max-w-md mx-auto rounded-xl shadow-lg"
-                />
+                <img src={thanksgivingScene} alt="Family gathering scene showing the emotional moment" className="w-full max-w-md mx-auto rounded-xl shadow-lg" />
               </div>
             </div>
 
@@ -158,7 +157,9 @@ const Index = () => {
               <p>Massages that helped for a week.</p>
               <p>Can't carry her grandson without pain.</p>
               <p>Can't hold her motorcycle up anymore.</p>
-              <p className="font-bold" style={{ color: '#000000' }}>For 18 months, she lived smaller and smaller.</p>
+              <p className="font-bold" style={{
+              color: '#000000'
+            }}>For 18 months, she lived smaller and smaller.</p>
             </div>
           </Card>
 
@@ -170,16 +171,20 @@ const Index = () => {
             
             <div className="space-y-4 sm:space-y-6 text-left">
               <p className="text-base sm:text-xl md:text-2xl">Not right after the incident. After 18 months of trying everything else.</p>
-              <p className="text-base sm:text-xl md:text-2xl">Our specialist spent 90 minutes with her. It was a real assessment. Not the 15-minute rush she was used to.</p>
+              <p className="text-base sm:text-xl md:text-2xl">Our specialist spent 60 minutes with her. It was a real assessment. Not the 15-minute rush she was used to.</p>
               <p className="text-base sm:text-xl md:text-2xl">We mapped the entire compensation pattern.</p>
               <p className="text-base sm:text-xl md:text-2xl">Yes, her pelvis sits higher on one side - but that's just the start. Her knees cave. Her back arches to compensate. Her glutes went offline completely.</p>
-              <p className="text-base sm:text-xl md:text-2xl font-bold" style={{ color: '#000000' }}>Everyone treated pieces. Nobody mapped the whole system.</p>
+              <p className="text-base sm:text-xl md:text-2xl font-bold" style={{
+              color: '#000000'
+            }}>Everyone treated pieces. Nobody mapped the whole system.</p>
             </div>
 
             <div className="bg-white p-4 sm:p-6 rounded-lg mt-6 sm:mt-8">
               <p className="text-lg sm:text-2xl md:text-3xl font-bold text-left text-primary">"You're Not Broken. You're Compensating. There's a Difference."</p>
               <p className="text-base sm:text-xl md:text-2xl text-left mt-4">One means decline. The other means fixable.</p>
-              <p className="text-base sm:text-xl md:text-2xl text-left font-bold" style={{ color: '#000000' }}>18 months of decline and minutes to find the real problem.</p>
+              <p className="text-base sm:text-xl md:text-2xl text-left font-bold" style={{
+              color: '#000000'
+            }}>18 months of decline and minutes to find the real problem.</p>
             </div>
           </Card>
 
@@ -210,8 +215,12 @@ const Index = () => {
               <p className="text-base sm:text-xl md:text-2xl">These aren't cookie-cutter programs or 15-minute Physical Therapy evals.</p>
               
               <div className="bg-white p-4 sm:p-6 rounded-lg mt-6">
-                <p className="text-base sm:text-xl md:text-2xl font-bold text-left mt-4" style={{ color: '#000000' }}>This is 90 minutes with someone who sees what others can't. Who finds the pattern keeping you stuck.</p>
-                <p className="text-base sm:text-xl md:text-2xl font-bold text-left mt-4" style={{ color: '#000000' }}>They'll know in 90 minutes what others miss for years.</p>
+                <p className="text-base sm:text-xl md:text-2xl font-bold text-left mt-4" style={{
+                color: '#000000'
+              }}>This is 90 minutes with someone who sees what others can't. Who finds the pattern keeping you stuck.</p>
+                <p className="text-base sm:text-xl md:text-2xl font-bold text-left mt-4" style={{
+                color: '#000000'
+              }}>They'll know in 90 minutes what others miss for years.</p>
               </div>
             </div>
           </Card>
@@ -239,18 +248,14 @@ const Index = () => {
               
               {/* Laptop Image */}
               <div className="py-8 sm:py-12">
-                <img 
-                  src={laptopImg} 
-                  alt="Consultation with The Fitness Doctor" 
-                  className="w-full max-w-2xl mx-auto rounded-lg shadow-lg"
-                />
+                <img src={laptopImg} alt="Consultation with The Fitness Doctor" className="w-full max-w-2xl mx-auto rounded-lg shadow-lg" />
               </div>
               
               {/* Green CTA Button */}
-              <Button 
-                className="text-lg sm:text-2xl md:text-4xl font-bold py-6 sm:py-8 md:py-10 px-8 sm:px-16 md:px-20 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-200 mb-6 w-full sm:w-auto" 
-                style={{ backgroundColor: '#08ff00', color: '#000000' }}
-              >
+              <Button className="text-lg sm:text-2xl md:text-4xl font-bold py-6 sm:py-8 md:py-10 px-8 sm:px-16 md:px-20 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-200 mb-6 w-full sm:w-auto" style={{
+              backgroundColor: '#08ff00',
+              color: '#000000'
+            }}>
                 CLAIM MY $97 CONSULTATION SPOT
               </Button>
               
@@ -280,10 +285,14 @@ const Index = () => {
           {/* Combined Final Call to Action */}
           <Card className="p-4 sm:p-8 bg-info-bg border-l-4 sm:border-l-8 border-info-border shadow-lg">
             <div className="space-y-4 sm:space-y-6 text-left">
-              <h2 className="text-xl sm:text-3xl md:text-4xl font-bold mb-6 sm:mb-8" style={{ color: '#000000' }}>She'd trade those 18 months for the 90 minutes you're considering right now.</h2>
+              <h2 className="text-xl sm:text-3xl md:text-4xl font-bold mb-6 sm:mb-8" style={{
+              color: '#000000'
+            }}>She'd trade those 18 months for the 90 minutes you're considering right now.</h2>
               <p className="text-base sm:text-xl md:text-2xl">They'll fill. They always do in October.</p>
               <p className="text-base sm:text-xl md:text-2xl">Because October is when people act. January is when they wish they had.</p>
-              <p className="text-lg sm:text-2xl md:text-3xl font-bold text-left mb-6 sm:mb-8" style={{ color: '#8B5CF6' }}>Which one will you be?</p>
+              <p className="text-lg sm:text-2xl md:text-3xl font-bold text-left mb-6 sm:mb-8" style={{
+              color: '#8B5CF6'
+            }}>Which one will you be?</p>
               
               <p className="text-base sm:text-xl md:text-2xl">
                 Wherever you are on this journey, you deserve to know what's really happening.
@@ -307,11 +316,10 @@ const Index = () => {
               
               {/* Calendly inline widget begin */}
               <div className="-mt-4 sm:-mt-6">
-                <div 
-                  className="calendly-inline-widget"       
-                  data-url="https://calendly.com/d/cmdh-g6z-fxh/your-private-consultation?hide_gdpr_banner=1&utm_source=consult-page-jon-version"       
-                  style={{minWidth: '320px', height: '1500px'}}
-                />
+                <div className="calendly-inline-widget" data-url="https://calendly.com/d/cmdh-g6z-fxh/your-private-consultation?hide_gdpr_banner=1&utm_source=consult-page-jon-version" style={{
+                minWidth: '320px',
+                height: '1500px'
+              }} />
                 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
               </div>
               {/* Calendly inline widget end */}
@@ -320,8 +328,6 @@ const Index = () => {
         </div>
 
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
